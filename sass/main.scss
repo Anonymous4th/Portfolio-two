@@ -1,0 +1,275 @@
+$one: #86DABAFF;
+$two: #3A3B3EFF;
+$three: #F4F5FAFF;
+$four: #242D58FF;
+$five: #FFFFFF;
+$six: #000000;
+
+body{
+    header{
+        background-image: url("../img/background-image-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .navbar{
+            .icons{
+                display: flex;
+                align-items: center;
+                .bx{
+                    font-size: 50px;
+                    color: $one;
+                    margin-left: -70px;
+                }
+                h2{
+                    color: $five;
+                    font-weight: normal;
+                    letter-spacing: 1px;
+                    span{
+                        color: $five;
+                        font-weight: bold;
+                    }
+                }
+            }
+            ul{
+                display: flex;
+                align-items: center;
+                list-style: none;
+                li{
+                    a{
+                        text-decoration: none;
+                        display: inline-block;
+                        color: $five;
+                        padding: 10px 20px;
+                        transition: .5s;
+                        &:hover{
+                            color: $six;
+                        }
+                    }
+                }
+                button{
+                    padding: 5px 15px;
+                    border-radius: 5px;
+                    background: none;
+                    color: $five;
+                    transition: .5s;
+                    &:hover{
+                        background-color: $one;
+                        border: 2px solid $one;
+                    }
+                }
+            }
+        }
+        .section1{
+            color: $five;
+            padding-bottom: 50px;
+            h2{
+                margin-top: 100px;
+                font-size: 21px;
+            }
+            p{
+                color: #98AAD0FF;
+                margin-top: 20px;
+            }
+            button{
+                padding: 5px 15px;
+                border-radius: 5px;
+                background: none;
+                color: $five;
+                transition: .5s;
+                margin-top: 30px;
+                &:hover{
+                    background-color: $one;
+                    border: 2px solid $one;
+                }
+            }
+        }
+    }
+    .section2{
+        margin-top: 100px;
+        .container{
+            .big_divs{
+                display: flex;
+                align-items: center;
+                .clear{
+                    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.216);
+                    height: 384px;
+                    width: 600px;
+                    margin: 10px;
+                    h2{
+                        margin-left: 15px;
+                    }
+                    p{
+                        margin-left: 15px;
+                        margin-top: 25px;
+                        font-size: 18px;
+                    }
+                    hr{
+                        color: $one;
+                        margin-left: 5px;
+                        width: 50px;
+                        height: 10px;
+                    }
+                    ul{
+                        li{
+                            .bx{
+                                margin-left: -20px;
+                                padding: 10px;
+                                transition: .5s;
+                               &:hover{
+                                   color: red;
+                               }
+                            }
+                            a{
+                               color: $six;
+                               margin-left: 5px;
+                               padding: 10px;
+                               text-decoration: none; 
+                               transition: .5s;
+                               &:hover{
+                                   color: red;
+                               }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section3{
+        background-color: $three;
+        .container{
+            .text{
+                text-align: center;
+                h2{
+                    font-size: 50px;
+                    margin-top: 100px;
+                    padding-top: 100px;
+                }
+                p{
+                    margin-top: 50px;
+                    font-size: 21px;
+                }
+            }
+            .row{
+                padding-bottom: 100px;
+                .col-md-3{
+                    background-color: $five;
+                    margin-left: 75px;
+                    .bx{
+                        font-size: 50px;
+                        color: $one;
+                        padding: 15px;
+                    }
+                    h2{
+                        margin-top: 10px;
+                        margin-left: 10px;
+                    }
+                    p{
+                        margin-top: 15px;
+                        padding-left: 10px;
+                        padding-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .section4{
+        .container{
+            display: flex;
+            align-items: center;
+            .bi_1{
+                background-image: url("../img/background-image-2.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 600px;
+                height: 400px;
+            }
+            .choose{
+                margin-left: 50px;
+                h2{
+                    font-size: 40px;
+                    margin-top: -50px;
+                }
+                p{
+                    margin-bottom: 50px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .section5{
+        background-color: $three;
+        .container{
+            .like{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #fff;
+                box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.186);
+                margin-top: 100px;
+                padding: 30px;
+                .txt{
+                    h2{
+                        color: $one;
+                    }
+                }
+                button{
+                    background-color: $one;
+                    padding: 5px 25px;
+                    border: 2px solid $one;
+                    border-radius: 5px;
+                    .bxs-phone{
+                        color: $five;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        background-color: $four;
+        margin-top: 100px;
+        .container{
+            display: flex;
+            align-items: center;
+            .icons{
+                padding-top: 100px;
+                .txt{
+                    display: flex;
+                    align-items: center;
+                    .bx{
+                        font-size: 50px;
+                        color: $one;
+                    }
+                }
+                .bx{
+                    font-size: 50px;
+                    color: $one;
+                }
+                h2{
+                    color: $five;
+                    font-weight: normal;
+                    letter-spacing: 1px;
+                    span{
+                        color: $five;
+                        font-weight: bold;
+                    }
+                }
+                p{
+                    color: $five;
+                    margin-top: 15px;
+                }
+                .icons_1{
+                    display: flex;
+                    align-items: center;
+                    .bx{
+                        font-size: 21px;
+                        margin: 15px;
+                        transition: .5s;
+                        &:hover{
+                            color: $six;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

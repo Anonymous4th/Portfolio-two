@@ -1,0 +1,194 @@
+body header {
+  background-image: url("../img/background-image-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  body header .navbar .icons {
+    display: flex;
+    align-items: center; }
+    body header .navbar .icons .bx {
+      font-size: 50px;
+      color: #86DABAFF;
+      margin-left: -70px; }
+    body header .navbar .icons h2 {
+      color: #FFFFFF;
+      font-weight: normal;
+      letter-spacing: 1px; }
+      body header .navbar .icons h2 span {
+        color: #FFFFFF;
+        font-weight: bold; }
+  body header .navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none; }
+    body header .navbar ul li a {
+      text-decoration: none;
+      display: inline-block;
+      color: #FFFFFF;
+      padding: 10px 20px;
+      transition: .5s; }
+      body header .navbar ul li a:hover {
+        color: #000000; }
+    body header .navbar ul button {
+      padding: 5px 15px;
+      border-radius: 5px;
+      background: none;
+      color: #FFFFFF;
+      transition: .5s; }
+      body header .navbar ul button:hover {
+        background-color: #86DABAFF;
+        border: 2px solid #86DABAFF; }
+  body header .section1 {
+    color: #FFFFFF;
+    padding-bottom: 50px; }
+    body header .section1 h2 {
+      margin-top: 100px;
+      font-size: 21px; }
+    body header .section1 p {
+      color: #98AAD0FF;
+      margin-top: 20px; }
+    body header .section1 button {
+      padding: 5px 15px;
+      border-radius: 5px;
+      background: none;
+      color: #FFFFFF;
+      transition: .5s;
+      margin-top: 30px; }
+      body header .section1 button:hover {
+        background-color: #86DABAFF;
+        border: 2px solid #86DABAFF; }
+body .section2 {
+  margin-top: 100px; }
+  body .section2 .container .big_divs {
+    display: flex;
+    align-items: center; }
+    body .section2 .container .big_divs .clear {
+      box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.216);
+      height: 384px;
+      width: 600px;
+      margin: 10px; }
+      body .section2 .container .big_divs .clear h2 {
+        margin-left: 15px; }
+      body .section2 .container .big_divs .clear p {
+        margin-left: 15px;
+        margin-top: 25px;
+        font-size: 18px; }
+      body .section2 .container .big_divs .clear hr {
+        color: #86DABAFF;
+        margin-left: 5px;
+        width: 50px;
+        height: 10px; }
+      body .section2 .container .big_divs .clear ul li .bx {
+        margin-left: -20px;
+        padding: 10px;
+        transition: .5s; }
+        body .section2 .container .big_divs .clear ul li .bx:hover {
+          color: red; }
+      body .section2 .container .big_divs .clear ul li a {
+        color: #000000;
+        margin-left: 5px;
+        padding: 10px;
+        text-decoration: none;
+        transition: .5s; }
+        body .section2 .container .big_divs .clear ul li a:hover {
+          color: red; }
+body .section3 {
+  background-color: #F4F5FAFF; }
+  body .section3 .container .text {
+    text-align: center; }
+    body .section3 .container .text h2 {
+      font-size: 50px;
+      margin-top: 100px;
+      padding-top: 100px; }
+    body .section3 .container .text p {
+      margin-top: 50px;
+      font-size: 21px; }
+  body .section3 .container .row {
+    padding-bottom: 100px; }
+    body .section3 .container .row .col-md-3 {
+      background-color: #FFFFFF;
+      margin-left: 75px; }
+      body .section3 .container .row .col-md-3 .bx {
+        font-size: 50px;
+        color: #86DABAFF;
+        padding: 15px; }
+      body .section3 .container .row .col-md-3 h2 {
+        margin-top: 10px;
+        margin-left: 10px; }
+      body .section3 .container .row .col-md-3 p {
+        margin-top: 15px;
+        padding-left: 10px;
+        padding-right: 20px; }
+body .section4 .container {
+  display: flex;
+  align-items: center; }
+  body .section4 .container .bi_1 {
+    background-image: url("../img/background-image-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px; }
+  body .section4 .container .choose {
+    margin-left: 50px; }
+    body .section4 .container .choose h2 {
+      font-size: 40px;
+      margin-top: -50px; }
+    body .section4 .container .choose p {
+      margin-bottom: 50px;
+      font-size: 10px; }
+body .section5 {
+  background-color: #F4F5FAFF; }
+  body .section5 .container .like {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.186);
+    margin-top: 100px;
+    padding: 30px; }
+    body .section5 .container .like .txt h2 {
+      color: #86DABAFF; }
+    body .section5 .container .like button {
+      background-color: #86DABAFF;
+      padding: 5px 25px;
+      border: 2px solid #86DABAFF;
+      border-radius: 5px; }
+      body .section5 .container .like button .bxs-phone {
+        color: #FFFFFF; }
+body footer {
+  background-color: #242D58FF;
+  margin-top: 100px; }
+  body footer .container {
+    display: flex;
+    align-items: center; }
+    body footer .container .icons {
+      padding-top: 100px; }
+      body footer .container .icons .txt {
+        display: flex;
+        align-items: center; }
+        body footer .container .icons .txt .bx {
+          font-size: 50px;
+          color: #86DABAFF; }
+      body footer .container .icons .bx {
+        font-size: 50px;
+        color: #86DABAFF; }
+      body footer .container .icons h2 {
+        color: #FFFFFF;
+        font-weight: normal;
+        letter-spacing: 1px; }
+        body footer .container .icons h2 span {
+          color: #FFFFFF;
+          font-weight: bold; }
+      body footer .container .icons p {
+        color: #FFFFFF;
+        margin-top: 15px; }
+      body footer .container .icons .icons_1 {
+        display: flex;
+        align-items: center; }
+        body footer .container .icons .icons_1 .bx {
+          font-size: 21px;
+          margin: 15px;
+          transition: .5s; }
+          body footer .container .icons .icons_1 .bx:hover {
+            color: #000000; }
+
+/*# sourceMappingURL=main.css.map */
